@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Agendei</title>
+</head>
+<body>
+    <header class="top">
+      <div class="top_anconra">
+        <h1 class="top__title">Agendei</h1>
+      </div>
+      <div class="form_ancora">
+          <a href="#section_contact">Contact Us</a>
+      </div>
+        
+    </header>
+    <section class="banner">
+      <div class="banner_div">
+        <img src="/img/logobanner.jpg" class="banner_img">
+        <p class="banner_text">A company operating in the field of residential and commercial cleaning, as well as providing painting, renovation, roofing, flooring, and all other services necessary for property renovation and construction.</p>
+    </div>
+    </section>
+    <section class="divisoria">
+      <h2 class="service_title_text">Do you need to do some work on your house? Or maybe a cleaning? Did something break?</h2>
+    </section>
+    
+    <section class="service">
+      <h2 class="service_title">AGENDEI</h2>
+      <p class="service_text">Agendei is ready to help you in various situations. Whatever your need, we are here to offer the ideal support. Contact us through the form at the bottom of the page, and we will ensure that the best professional is assigned to assist you. Our team consists of qualified specialists dedicated to providing excellent service. Do not hesitate to reach out to us for the assistance you deserve.</p>
+
+    </section>
+    <section class="divisoria">
+      <h2 class="service_title_text">Contact Us</h2>
+    </section>
+    <section class="form1" id="section_contact">
+      <div class="form_flex">
+        <h2 class="contact_title">Fill out the form below, and we will contact you immediately.</h2>
+        <form  class="form_card" action="https://api.staticforms.xyz/submit" method="post">
+          <input type="hidden" name="accessKey" value="eaedf41e-2db1-4183-b92a-e0b9629bc614">
+          <label for="name"> Your Name</label>
+          <input type="text" id="name" name="name" >
+
+          <label for="email">Your E-mail</label>
+          <input type="email" id="email" name="email" >
+
+          <label for="phone">Your Phone</label>
+          <input type="number" name="phone" id="phone" >
+
+          <label for="state">Your State</label>
+          <input type="text" name="$State" id="state" >
+
+          <label for="city">Your City</label>
+          <input type="text" id="name" name="$City">
+
+          <label for="opcoes">Type of service:</label>
+          <select id="opcoes" name="$options">
+            <option value="cleaning">cleaning</option>
+            <option value="construction">construction</option>
+            <option value="Repair">Repair</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="mensagem"></label>
+          <textarea name="message" id="mensagem" cols="30" rows="10"></textarea>
+
+          <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+          <button  class="send" type="submit">
+            <img class="icon" src="/img/sendicon.png" alt="">
+            Send
+          </button>
+
+
+      </div>
+      
+
+        
+      </form>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+  
+    </section>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.top_anconra{
+    background-color: var(--primaricolor);
+    padding: 1em;
+}
+.form_ancora{
+    background-color: white;
+    padding: 0.5em;
+}
+
+.top__title{
+    font-size: 24px;
+}

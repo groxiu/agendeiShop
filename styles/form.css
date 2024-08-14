@@ -1,0 +1,69 @@
+.form1{
+    display: flex;
+    background-image: url(/img/builder.jpg);
+    background-size: cover;
+    text-align: center;
+    
+}
+.form_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_card{
+    text-align: left;
+    padding: 1em;
+    background-color: var(--primaricolor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 80%;
+    border-radius: 10px;
+    margin: 2em 0;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   
+}
+label{
+    margin-top: 1em;
+   
+
+}
+ input{
+    color: white;
+    margin-top: 1em;
+    outline: none;
+    padding: 1em;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    
+}
+select{
+    margin-top: 1em;
+    padding: 1em;
+    font-size: 20px;
+    font-family: "Kanit";
+
+}
+.send{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Kanit";
+    font-size: 24px;
+    margin-top: 1em;
+    width: 50%;
+    padding: 0.5em;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+.contact_title{
+    margin-top: 1em;
+    font-size: 32px;
+}
+.icon{
+    width: 30%;
+}
